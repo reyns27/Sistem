@@ -21,6 +21,7 @@ namespace COMPLETE_FLAT_UI
             //Estas lineas eliminan los parpadeos del formulario o controles en la interfaz grafica (Pero no en un 100%)
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.DoubleBuffered = true;
+            HideSubMenu();
         }
         //METODO PARA REDIMENCIONAR/CAMBIAR TAMAÑO A FORMULARIO  TIEMPO DE EJECUCION ----------------------------------------------------------
         private int tolerance = 15;
@@ -205,6 +206,12 @@ namespace COMPLETE_FLAT_UI
             frm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(frm);
         }
+
+        private void panelContenedorForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         //METODO PARA HORA Y FECHA ACTUAL ----------------------------------------------------------
         private void tmFechaHora_Tick(object sender, EventArgs e)
         {
@@ -218,7 +225,29 @@ namespace COMPLETE_FLAT_UI
             AbrirFormEnPanel(new Form1());
         }
 
-        
+        private void BtnExpediente_Click(object sender, EventArgs e)
+        {
+            ShowSubMenu(PanelExpediente);
+        }
+
+        //Ocultal subMenus
+        private void HideSubMenu()
+        {
+            PanelExpediente.Visible = false;
+        }
+        //Ver subMenus
+        private void ShowSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                HideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
+        }
+
+
 
     }
 }
