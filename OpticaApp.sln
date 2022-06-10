@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpticaApp", "COMPLETE_FLAT_UI\OpticaApp.csproj", "{2C6921B3-8558-4914-8254-11C9EE505B00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{497436F3-004C-4FE8-ADFD-A45950622F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{82EE3BB1-7B22-46A1-BF8D-A3683AE4CD0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2C6921B3-8558-4914-8254-11C9EE505B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C6921B3-8558-4914-8254-11C9EE505B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C6921B3-8558-4914-8254-11C9EE505B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497436F3-004C-4FE8-ADFD-A45950622F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497436F3-004C-4FE8-ADFD-A45950622F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497436F3-004C-4FE8-ADFD-A45950622F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497436F3-004C-4FE8-ADFD-A45950622F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EE3BB1-7B22-46A1-BF8D-A3683AE4CD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EE3BB1-7B22-46A1-BF8D-A3683AE4CD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EE3BB1-7B22-46A1-BF8D-A3683AE4CD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EE3BB1-7B22-46A1-BF8D-A3683AE4CD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@ namespace COMPLETE_FLAT_UI
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            FormListaClientes hijo = new FormListaClientes();
+            FormListaPacientes hijo = new FormListaPacientes();
             AddOwnedForm(hijo);
             hijo.FormBorderStyle = FormBorderStyle.None;
             hijo.TopLevel = false;

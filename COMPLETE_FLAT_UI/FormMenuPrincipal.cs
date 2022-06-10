@@ -131,10 +131,12 @@ namespace COMPLETE_FLAT_UI
             if (panelMenu.Width == 230)
             {
                 this.tmContraerMenu.Start();
+                AjusteBotonesMenu();
             }
             else if (panelMenu.Width == 55)
             {
                 this.tmExpandirMenu.Start();
+                ReajusteeBotonesMenu();
             }
 
             //-------SIN EFECTO 
@@ -195,7 +197,7 @@ namespace COMPLETE_FLAT_UI
         //METODOS PARA ABRIR OTROS FORMULARIOS Y MOSTRAR FORM DE LOGO Al CERRAR ----------------------------------------------------------
         private void btnListaClientes_Click(object sender, EventArgs e)
         {
-            FormListaClientes fm = new FormListaClientes();
+            FormListaPacientes fm = new FormListaPacientes();
             fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(fm);
         }
@@ -230,10 +232,16 @@ namespace COMPLETE_FLAT_UI
             ShowSubMenu(PanelExpediente);
         }
 
+        private void BtnInventario_Click(object sender, EventArgs e)
+        {
+            ShowSubMenu(PanelInventario);
+        }
+
         //Ocultal subMenus
         private void HideSubMenu()
         {
             PanelExpediente.Visible = false;
+            PanelInventario.Visible = false;
         }
         //Ver subMenus
         private void ShowSubMenu(Panel subMenu)
@@ -245,6 +253,24 @@ namespace COMPLETE_FLAT_UI
             }
             else
                 subMenu.Visible = false;
+        }
+
+        //Reajustar texto de los botones
+        private void AjusteBotonesMenu()
+        {
+            //2 espacios hacia la derecha
+            BtnExpediente.TextAlign = ContentAlignment.MiddleLeft;
+            BtnExpediente.Text = "  EX";
+            BtnCitas.TextAlign = ContentAlignment.MiddleLeft;
+            BtnCitas.Text = "  CT";
+        }
+        private void ReajusteeBotonesMenu()
+        {
+            //2 espacios hacia la derecha
+            BtnExpediente.TextAlign = ContentAlignment.MiddleLeft;
+            BtnExpediente.Text = "--> Expediente";
+            BtnCitas.TextAlign = ContentAlignment.MiddleLeft;
+            BtnCitas.Text = "--> Citas";
         }
 
 
