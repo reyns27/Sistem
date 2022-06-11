@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FY19I8XyH7RguicqNA51EgvEGCoXQ70CuYb3LAijPXY0sRzWfz+01sPdZaEE6VkSRcOKOJhRI91P07yplVAucQ==",
+  "dgSpecHash": "c9bxGuZbHPnaCDhZL9O1R7CdJAZgLUQWgBWHyFrkP149u3mjaAmvlVreOPy5bMfEth43K/YLAzKOGZc0nbGK8g==",
   "success": true,
-  "projectFilePath": "D:\\C#\\AppOptica\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

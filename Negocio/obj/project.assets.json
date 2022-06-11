@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\k-ro-\\.nuget\\packages\\": {}
+    "C:\\Users\\AST-SISTEMA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\AppOptica\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "D:\\C#\\AppOptica\\Negocio\\Negocio.csproj",
-      "packagesPath": "C:\\Users\\k-ro-\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\AppOptica\\Negocio\\obj\\",
+      "projectPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Negocio\\Negocio.csproj",
+      "packagesPath": "C:\\Users\\AST-SISTEMA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\k-ro-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AST-SISTEMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

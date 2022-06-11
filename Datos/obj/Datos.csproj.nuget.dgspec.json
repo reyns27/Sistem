@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\AppOptica\\Datos\\Datos.csproj": {}
+    "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "D:\\C#\\AppOptica\\Datos\\Datos.csproj": {
+    "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\AppOptica\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "D:\\C#\\AppOptica\\Datos\\Datos.csproj",
-        "packagesPath": "C:\\Users\\k-ro-\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\AppOptica\\Datos\\obj\\",
+        "projectPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\AST-SISTEMA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k-ro-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AST-SISTEMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
