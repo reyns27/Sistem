@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj": {}
+    "C:\\Users\\AST-SISTEMA\\source\\repos\\Sistem\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj": {
+    "C:\\Users\\AST-SISTEMA\\source\\repos\\Sistem\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\AST-SISTEMA\\source\\repos\\Sistem\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\Datos.csproj",
+        "projectPath": "C:\\Users\\AST-SISTEMA\\source\\repos\\Sistem\\Datos\\Datos.csproj",
         "packagesPath": "C:\\Users\\AST-SISTEMA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AST-SISTEMA\\Source\\Repos\\Sistem\\Datos\\obj\\",
+        "outputPath": "C:\\Users\\AST-SISTEMA\\source\\repos\\Sistem\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AST-SISTEMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
