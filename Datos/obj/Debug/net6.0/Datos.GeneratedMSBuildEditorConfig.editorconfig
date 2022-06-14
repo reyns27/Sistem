@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Datos
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\AST-SISTEMA\source\repos\Sistem\Datos\
-=======
-build_property.ProjectDir = D:\C#\AppOptica\Datos\
->>>>>>> 01a1a1dbf74161ff329dacc8c2c7d02a7e4ab823

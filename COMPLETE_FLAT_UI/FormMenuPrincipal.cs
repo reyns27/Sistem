@@ -255,6 +255,11 @@ namespace COMPLETE_FLAT_UI
                 subMenu.Visible = false;
         }
 
+        private void BtnExpediente_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormListaPacientes());
+        }
+
         //Reajustar texto de los botones
         private void AjusteBotonesMenu()
         {

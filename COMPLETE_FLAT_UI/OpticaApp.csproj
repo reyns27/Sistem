@@ -91,11 +91,11 @@
     <Compile Include="FormLogo.designer.cs">
       <DependentUpon>FormLogo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMantCliente.cs">
+    <Compile Include="FormMantPacientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMantCliente.designer.cs">
-      <DependentUpon>FormMantCliente.cs</DependentUpon>
+    <Compile Include="FormMantPacientes.designer.cs">
+      <DependentUpon>FormMantPacientes.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMembresia.cs">
       <SubType>Form</SubType>
@@ -126,8 +126,8 @@
     <EmbeddedResource Include="FormLogo.resx">
       <DependentUpon>FormLogo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMantCliente.resx">
-      <DependentUpon>FormMantCliente.cs</DependentUpon>
+    <EmbeddedResource Include="FormMantPacientes.resx">
+      <DependentUpon>FormMantPacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMembresia.resx">
       <DependentUpon>FormMembresia.cs</DependentUpon>
@@ -253,6 +253,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{82ee3bb1-7b22-46a1-bf8d-a3683ae4cd0c}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

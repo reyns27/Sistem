@@ -50,7 +50,6 @@ C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\OpticaApp.cs
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.Form1.resources
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormListaPacientes.resources
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormLogo.resources
-C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormMembresia.resources
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.Properties.Resources.resources
@@ -61,3 +60,4 @@ C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLA
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.application
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.exe
 C:\Users\AST-SISTEMA\Source\Repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.pdb
+C:\Users\AST-SISTEMA\source\repos\Sistem\COMPLETE_FLAT_UI\obj\Debug\COMPLETE_FLAT_UI.FormMantPacientes.resources

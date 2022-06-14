@@ -35,14 +35,14 @@ namespace COMPLETE_FLAT_UI
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            FormMantCliente frm = new FormMantCliente();
+            FormMantPacientes frm = new FormMantPacientes();
             if (dataGridView1.SelectedRows.Count > 0)
             {               
-                frm.txtid.Text= dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                frm.txtnombre.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-                frm.txtapellido.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-                frm.txtdireccion.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-                frm.txttelefono.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+                frm.TxtExpediente.Text= dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                frm.TxtNombre.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+                frm.TxtApellido.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                frm.TxtDireccion.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+                frm.TxtTelefono.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
 
                 frm.ShowDialog();
              
@@ -53,7 +53,7 @@ namespace COMPLETE_FLAT_UI
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            FormMantCliente frm = new FormMantCliente();
+            FormMantPacientes frm = new FormMantPacientes();
             frm.ShowDialog();
         }
 
