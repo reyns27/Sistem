@@ -20,12 +20,17 @@ namespace Datos.Pacientes
 
             Comando.Connection = Conexion.AbrirConexion();
             Comando.CommandText = "Select *from Expediente";
-            Comando.CommandType = CommandType.StoredProcedure;
+            Comando.CommandType = CommandType.Text;
             Leer = Comando.ExecuteReader();
             Tabla.Load(Leer);
             Conexion.CerrarConexion();
             return Tabla;
 
+        }
+
+        public void CrearExpediente(string NExpediente,string Nombre, string Apellido,string Direccion, string Telefono, string Celular, string FechaNaciemiento, int Edad,string TipoSangre)
+        {
+            Comando.Connection = Conexion.AbrirConexion();
         }
     }
 }

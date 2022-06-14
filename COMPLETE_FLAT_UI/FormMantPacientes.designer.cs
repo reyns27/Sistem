@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMantPacientes));
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.BtnCerrar = new System.Windows.Forms.Button();
@@ -57,6 +58,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label26 = new System.Windows.Forms.Label();
+            this.TxtEdad = new System.Windows.Forms.TextBox();
+            this.CbxTipoSangre = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
             this.DtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.CbxSexo = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -84,13 +89,9 @@
             this.TxtTelefonoPariente1 = new System.Windows.Forms.TextBox();
             this.TxtNombrePariente1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label24 = new System.Windows.Forms.Label();
             this.MotivoConsulta = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.CbxTipoSangre = new System.Windows.Forms.ComboBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.TxtEdad = new System.Windows.Forms.TextBox();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -130,7 +131,7 @@
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.FlatAppearance.BorderSize = 0;
             this.BtnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCerrar.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Close;
+            this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
             this.BtnCerrar.Location = new System.Drawing.Point(846, 0);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(38, 38);
@@ -265,7 +266,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::COMPLETE_FLAT_UI.Properties.Resources.icono_cliente;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(724, 91);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 153);
@@ -440,6 +441,56 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Datos Generales";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label26.Location = new System.Drawing.Point(14, 231);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(45, 17);
+            this.label26.TabIndex = 46;
+            this.label26.Text = "Edad:";
+            // 
+            // TxtEdad
+            // 
+            this.TxtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEdad.Location = new System.Drawing.Point(165, 228);
+            this.TxtEdad.Name = "TxtEdad";
+            this.TxtEdad.ReadOnly = true;
+            this.TxtEdad.Size = new System.Drawing.Size(123, 23);
+            this.TxtEdad.TabIndex = 45;
+            // 
+            // CbxTipoSangre
+            // 
+            this.CbxTipoSangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbxTipoSangre.FormattingEnabled = true;
+            this.CbxTipoSangre.Items.AddRange(new object[] {
+            "A +",
+            "A -",
+            "B +",
+            "B -",
+            "AB +",
+            "AB -",
+            "O +",
+            "O-"});
+            this.CbxTipoSangre.Location = new System.Drawing.Point(165, 256);
+            this.CbxTipoSangre.Margin = new System.Windows.Forms.Padding(2);
+            this.CbxTipoSangre.Name = "CbxTipoSangre";
+            this.CbxTipoSangre.Size = new System.Drawing.Size(123, 24);
+            this.CbxTipoSangre.TabIndex = 44;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label25.Location = new System.Drawing.Point(14, 256);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(110, 17);
+            this.label25.TabIndex = 43;
+            this.label25.Text = "Tipo de Sangre:";
             // 
             // DtpFechaNacimiento
             // 
@@ -733,6 +784,18 @@
             this.tabPage2.Text = "Datos Clinicos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Alcohol",
+            "Tabaco"});
+            this.checkedListBox1.Location = new System.Drawing.Point(23, 28);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(205, 89);
+            this.checkedListBox1.TabIndex = 10;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -752,68 +815,6 @@
             this.MotivoConsulta.Name = "MotivoConsulta";
             this.MotivoConsulta.Size = new System.Drawing.Size(490, 59);
             this.MotivoConsulta.TabIndex = 8;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Alcohol",
-            "Tabaco"});
-            this.checkedListBox1.Location = new System.Drawing.Point(23, 28);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(205, 89);
-            this.checkedListBox1.TabIndex = 10;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label25.Location = new System.Drawing.Point(14, 256);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(110, 17);
-            this.label25.TabIndex = 43;
-            this.label25.Text = "Tipo de Sangre:";
-            // 
-            // CbxTipoSangre
-            // 
-            this.CbxTipoSangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CbxTipoSangre.FormattingEnabled = true;
-            this.CbxTipoSangre.Items.AddRange(new object[] {
-            "A +",
-            "A -",
-            "B +",
-            "B -",
-            "AB +",
-            "AB -",
-            "O +",
-            "O-"});
-            this.CbxTipoSangre.Location = new System.Drawing.Point(165, 256);
-            this.CbxTipoSangre.Margin = new System.Windows.Forms.Padding(2);
-            this.CbxTipoSangre.Name = "CbxTipoSangre";
-            this.CbxTipoSangre.Size = new System.Drawing.Size(123, 24);
-            this.CbxTipoSangre.TabIndex = 44;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label26.Location = new System.Drawing.Point(14, 231);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(45, 17);
-            this.label26.TabIndex = 46;
-            this.label26.Text = "Edad:";
-            // 
-            // TxtEdad
-            // 
-            this.TxtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEdad.Location = new System.Drawing.Point(165, 228);
-            this.TxtEdad.Name = "TxtEdad";
-            this.TxtEdad.ReadOnly = true;
-            this.TxtEdad.Size = new System.Drawing.Size(123, 23);
-            this.TxtEdad.TabIndex = 45;
             // 
             // FormMantPacientes
             // 

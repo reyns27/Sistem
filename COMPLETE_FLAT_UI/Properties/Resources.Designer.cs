@@ -83,6 +83,16 @@ namespace COMPLETE_FLAT_UI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Close1 {
+            get {
+                object obj = ResourceManager.GetObject("Close1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dashboard {
             get {
                 object obj = ResourceManager.GetObject("Dashboard", resourceCulture);
@@ -106,6 +116,16 @@ namespace COMPLETE_FLAT_UI.Properties {
         internal static System.Drawing.Bitmap logoUI {
             get {
                 object obj = ResourceManager.GetObject("logoUI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoUI1 {
+            get {
+                object obj = ResourceManager.GetObject("logoUI1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -296,6 +316,16 @@ namespace COMPLETE_FLAT_UI.Properties {
         internal static System.Drawing.Bitmap Planes {
             get {
                 object obj = ResourceManager.GetObject("Planes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Planes1 {
+            get {
+                object obj = ResourceManager.GetObject("Planes1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,0 +1,15 @@
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\bin\Debug\net6.0\Datos.dll
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\bin\Debug\net6.0\Datos.pdb
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\AST-SISTEMA\source\repos\Sistem\Negocio\obj\Debug\net6.0\ref\Negocio.dll

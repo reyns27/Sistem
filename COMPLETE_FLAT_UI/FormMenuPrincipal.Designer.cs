@@ -32,12 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuPrincipal));
             this.panelContenedorPrincipal = new System.Windows.Forms.Panel();
             this.panelContenedorForm = new System.Windows.Forms.Panel();
-            this.btnMembresia = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnMembresia = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbFecha = new System.Windows.Forms.Label();
@@ -119,44 +119,24 @@
             this.panelContenedorForm.TabIndex = 6;
             this.panelContenedorForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedorForm_Paint);
             // 
-            // btnMembresia
+            // panel1
             // 
-            this.btnMembresia.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnMembresia.FlatAppearance.BorderSize = 0;
-            this.btnMembresia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
-            this.btnMembresia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
-            this.btnMembresia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMembresia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMembresia.ForeColor = System.Drawing.Color.Silver;
-            this.btnMembresia.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Membresia;
-            this.btnMembresia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMembresia.Location = new System.Drawing.Point(206, 11);
-            this.btnMembresia.Name = "btnMembresia";
-            this.btnMembresia.Size = new System.Drawing.Size(156, 40);
-            this.btnMembresia.TabIndex = 4;
-            this.btnMembresia.Text = "Membresia";
-            this.btnMembresia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMembresia.UseVisualStyleBackColor = true;
-            this.btnMembresia.Click += new System.EventHandler(this.btnMembresia_Click);
-            // 
-            // button3
-            // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Silver;
-            this.button3.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Planes;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(379, 8);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(139, 40);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Planes";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(61)))), ((int)(((byte)(69)))));
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btnMembresia);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lbFecha);
+            this.panel1.Controls.Add(this.pictureBox7);
+            this.panel1.Controls.Add(this.lblHora);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(230, 500);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(870, 100);
+            this.panel1.TabIndex = 5;
             // 
             // button6
             // 
@@ -167,7 +147,6 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Silver;
-            this.button6.Image = global::COMPLETE_FLAT_UI.Properties.Resources.APs;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(368, 50);
             this.button6.Name = "button6";
@@ -176,6 +155,54 @@
             this.button6.Text = "Dispositivos";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Silver;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(379, 8);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(139, 40);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Planes";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // btnMembresia
+            // 
+            this.btnMembresia.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnMembresia.FlatAppearance.BorderSize = 0;
+            this.btnMembresia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.btnMembresia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
+            this.btnMembresia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMembresia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMembresia.ForeColor = System.Drawing.Color.Silver;
+            this.btnMembresia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMembresia.Location = new System.Drawing.Point(206, 11);
+            this.btnMembresia.Name = "btnMembresia";
+            this.btnMembresia.Size = new System.Drawing.Size(156, 40);
+            this.btnMembresia.TabIndex = 4;
+            this.btnMembresia.Text = "Membresia";
+            this.btnMembresia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMembresia.UseVisualStyleBackColor = true;
+            this.btnMembresia.Click += new System.EventHandler(this.btnMembresia_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.LightGray;
+            this.label5.Location = new System.Drawing.Point(83, 54);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 16);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Cargo";
             // 
             // button5
             // 
@@ -196,36 +223,6 @@
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(61)))), ((int)(((byte)(69)))));
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.btnMembresia);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.lbFecha);
-            this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.lblHora);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(230, 500);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(870, 100);
-            this.panel1.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.LightGray;
-            this.label5.Location = new System.Drawing.Point(83, 54);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Cargo";
             // 
             // label4
             // 
@@ -263,7 +260,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::COMPLETE_FLAT_UI.Properties.Resources.perfil;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(12, 18);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(65, 65);
@@ -312,7 +309,7 @@
             this.PanelInventario.Controls.Add(this.button7);
             this.PanelInventario.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelInventario.Location = new System.Drawing.Point(2, 251);
-            this.PanelInventario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelInventario.Margin = new System.Windows.Forms.Padding(2);
             this.PanelInventario.Name = "PanelInventario";
             this.PanelInventario.Size = new System.Drawing.Size(228, 167);
             this.PanelInventario.TabIndex = 11;
@@ -402,7 +399,7 @@
             this.panel4.Controls.Add(this.BtnInventario);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(2, 200);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(228, 51);
             this.panel4.TabIndex = 16;
@@ -433,7 +430,7 @@
             this.PanelExpediente.Controls.Add(this.BtnExpediente);
             this.PanelExpediente.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelExpediente.Location = new System.Drawing.Point(2, 102);
-            this.PanelExpediente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelExpediente.Margin = new System.Windows.Forms.Padding(2);
             this.PanelExpediente.Name = "PanelExpediente";
             this.PanelExpediente.Size = new System.Drawing.Size(228, 98);
             this.PanelExpediente.TabIndex = 0;
@@ -482,7 +479,7 @@
             this.panel3.Controls.Add(this.BtnPaciente);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(2, 51);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(228, 51);
             this.panel3.TabIndex = 15;
@@ -496,7 +493,7 @@
             this.BtnPaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPaciente.ForeColor = System.Drawing.Color.Silver;
-            this.BtnPaciente.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Planes;
+            this.BtnPaciente.Image = ((System.Drawing.Image)(resources.GetObject("BtnPaciente.Image")));
             this.BtnPaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnPaciente.Location = new System.Drawing.Point(3, 3);
             this.BtnPaciente.Name = "BtnPaciente";
@@ -513,7 +510,7 @@
             this.panel2.Controls.Add(this.btnMenu);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(2, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(228, 51);
             this.panel2.TabIndex = 0;
@@ -522,7 +519,7 @@
             // 
             this.btnMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenu.Image = global::COMPLETE_FLAT_UI.Properties.Resources.menu2;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
             this.btnMenu.Location = new System.Drawing.Point(182, 4);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(43, 37);
@@ -535,7 +532,7 @@
             // 
             this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.Image = global::COMPLETE_FLAT_UI.Properties.Resources.shut_down;
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.Location = new System.Drawing.Point(9, 510);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(43, 37);
@@ -616,7 +613,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::COMPLETE_FLAT_UI.Properties.Resources.satellite_dish__1_;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(9, 9);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(28, 28);
@@ -641,7 +638,7 @@
             this.btnNormal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNormal.FlatAppearance.BorderSize = 0;
             this.btnNormal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNormal.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Normal;
+            this.btnNormal.Image = ((System.Drawing.Image)(resources.GetObject("btnNormal.Image")));
             this.btnNormal.Location = new System.Drawing.Point(996, 0);
             this.btnNormal.Name = "btnNormal";
             this.btnNormal.Size = new System.Drawing.Size(43, 43);
@@ -656,7 +653,6 @@
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.FlatAppearance.BorderSize = 0;
             this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Minimize;
             this.btnMinimizar.Location = new System.Drawing.Point(950, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(43, 43);
@@ -670,7 +666,6 @@
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.FlatAppearance.BorderSize = 0;
             this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.Image = global::COMPLETE_FLAT_UI.Properties.Resources.maximize3;
             this.btnMaximizar.Location = new System.Drawing.Point(996, 0);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(43, 43);
@@ -684,7 +679,7 @@
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.FlatAppearance.BorderSize = 0;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Image = global::COMPLETE_FLAT_UI.Properties.Resources.Close;
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(1043, 2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(39, 39);
