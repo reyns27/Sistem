@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="COMPLETE_FLAT_UI.exe" size="1205248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="COMPLETE_FLAT_UI.exe" size="1220096">
       <assemblyIdentity name="COMPLETE_FLAT_UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2WWS2JuFtCYGtMwnh8vyz+nWTtK+LrtPE2XKYaKK6lY=</dsig:DigestValue>
+        <dsig:DigestValue>XeQ0jwIj/Amvb1gDkQIPkLyGs3XI32Xpy6osj0pQ7Xs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
